@@ -1,0 +1,28 @@
+.mainContainer{
+    border: solid black;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    width: 40%;
+    height: 70vh;
+
+}
+
+.dashboard{
+    background: peru;
+    padding: 20px;
+    border: 2px solid black;
+    font-size: xx-large;
+    font-weight: bolder;
+   
+
+}
+
+.dashboard:hover{
+    background: blue;
+    padding: 10px;
+    border: 3px solid black;
+    transform: scale(1, 1);
+
+
+
+}
